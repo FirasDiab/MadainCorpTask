@@ -1,0 +1,66 @@
+.container{
+    display:grid; 
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+.player-container{
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+
+.computer-container{
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+}
+
+.computer-container h1{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+button{
+    width: 100%;
+    height: 10rem;
+    margin: 10px;
+    background-color: aqua;
+    color: black;
+    font-size: 4rem;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+img{
+    width: 400px;
+    height: 350px;
+    
+}
+
+#winner{
+    display: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    background-color: darkred;
+    color: #fff;
+    height: 75px;
+    line-height: 75px;
+    margin-top: 20px;
+}
+
+/* .result{
+    display: none;
+} */
+
+#player-result , #computer-result{
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+}
+
