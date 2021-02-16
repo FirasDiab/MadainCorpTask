@@ -1,3 +1,8 @@
+if((!sessionStorage.getItem("computerCount")) && (!sessionStorage.getItem("playerCount"))){
+    sessionStorage.setItem('computerCount',0);
+    sessionStorage.setItem('playerCount',0);
+}
+
 function rockChoose(){
     document.getElementById("Rock-btn").style.display = "none";
     document.getElementById("Paper-btn").style.display = "none";
